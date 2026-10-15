@@ -1,6 +1,6 @@
 # Team Workflow Lab
 
-Purpose: Practice the individual Git cycle and a shared team workflow.
+Purpose: Practice the individual Git cycle, pull requests, and safe merge conflict resolution.
 
 Team members: ali-ghiax
 
