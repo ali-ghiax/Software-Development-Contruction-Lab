@@ -6,6 +6,13 @@ Team members: ali-ghiax
 
 Tasks: Repository setup, feature implementation, review, and testing.
 
+## Learning Objectives
+
+- Explain the difference between Git and GitHub.
+- Stage, commit, push, and pull changes from the terminal.
+- Isolate a task on a feature branch and integrate it with a pull request.
+- Recognize and resolve a basic merge conflict.
+
 This repository is used for the Software Construction and Development lab on individual and team GitHub workflows.
 
 ## Hello program
