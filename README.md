@@ -15,6 +15,17 @@ Tasks: Repository setup, feature implementation, review, and testing.
 
 This repository is used for the Software Construction and Development lab on individual and team GitHub workflows.
 
+## Student Task Tracker
+
+`src/task_tracker.cpp` stores tasks and prints them. Choose 1 to add a task, 2 to list tasks, and 3 to exit.
+
+```bash
+g++ -o task_tracker src/task_tracker.cpp
+.\task_tracker.exe
+```
+
+The checks for this program are in `docs/test-plan.md`.
+
 ## Hello program
 
 `hello.cpp` prints a short message with `cout`.
