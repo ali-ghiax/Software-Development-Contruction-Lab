@@ -1,6 +1,6 @@
 # Team Workflow Lab
 
-Purpose: Practice Git and collaborative software development.
+Purpose: Practice the individual Git cycle and a shared team workflow.
 
 Team members: ali-ghiax
 
