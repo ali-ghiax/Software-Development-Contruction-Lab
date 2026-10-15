@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 struct Task {
@@ -8,13 +9,20 @@ struct Task {
     bool done;
 };
 
-int main() {
-    Task sample;
-    sample.id = 1;
-    sample.title = "Finish the Git workflow lab";
-    sample.done = false;
+vector<Task> tasks;
+int nextId = 1;
 
+void addTask(const string& title) {
+    Task task;
+    task.id = nextId++;
+    task.title = title;
+    task.done = false;
+    tasks.push_back(task);
+    cout << "Added task " << task.id << ": " << task.title << endl;
+}
+
+int main() {
     cout << "Student Task Tracker" << endl;
-    cout << sample.id << ". " << sample.title << endl;
+    addTask("Finish the Git workflow lab");
     return 0;
 }
