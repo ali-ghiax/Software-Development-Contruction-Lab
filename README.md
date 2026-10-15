@@ -38,3 +38,12 @@ g++ -o hello hello.cpp
 ## Repository
 
 https://github.com/ali-ghiax/Software-Development-Contruction-Lab
+
+## Contribution summary
+
+ali-ghiax is the repository owner and carried out each lab role on its own branch:
+
+- Added the project overview and the learning objectives.
+- Added the task record, the add-task function, and task listing through separate pull requests.
+- Added the test plan and a review comment on each tracker pull request.
+- Resolved the merge conflict on the Purpose line in this file.
